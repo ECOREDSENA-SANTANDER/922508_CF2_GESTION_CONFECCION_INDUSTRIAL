@@ -2,13 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+    p A continuación, se presenta un esquema jerárquico sobre planeación de la mano de obra en confección, organizado en cuatro apartados principales: requerimientos de personal, programación de jornadas, costeo de la mano de obra y control de novedades. Incluye temas sobre capacidad operativa, necesidades de mano de obra, disponibilidad y asignación del personal, turnos, relevos, descansos, límites legales de la jornada laboral, trabajo suplementario, recargos, salarios, base prestacional, seguridad social, aportes, provisiones, mano de obra directa e indirecta, ausentismo, cambios de disponibilidad, formatos y protocolos de reporte.
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Esquema jerárquico sobre planeación de la mano de obra en confección. Organiza los contenidos en cuatro apartados: requerimientos de personal, programación de jornadas, costeo de la mano de obra y control de novedades, e incluye temas como capacidad operativa, turnos, salarios, seguridad social, ausentismo y protocolos de reporte.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

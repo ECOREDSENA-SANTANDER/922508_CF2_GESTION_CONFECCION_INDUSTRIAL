@@ -1,1 +1,1 @@
-module.exports = 'Planeación de la mano de obra en confección.'
+module.exports = 'Planeación de la mano de obra en confección'
