@@ -43,6 +43,8 @@
   color: $white !important
 figcaption 
     font-weight: normal !important
+.tabla-nota.p-3.bg-color-1
+  background-color: #DEE4F0 !important
 
 .banner-interno__titulo__icono i
     color: $color-primario !important;
@@ -63,7 +65,6 @@ figcaption
   position: relative
   display: inline-flex
   align-items: center
-  background-color: $white
   padding-right: 5px
   padding-left: 60px
   min-height: 48px
@@ -119,6 +120,22 @@ figcaption
       font-style: normal !important
 .tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range]
     background: #E4C0D7
+//ACORDION B
+.acordion__accion__btn--b
+    background-color: $color-acento-botones !important;
+    border: 0
+.tarjeta.bg-card
+  background-color: #513013
+.tarjeta.bg-card .acordion__titulo h3
+  color: $white
+.tarjeta.bg-card.acordion__activo
+  background-color: #BBDFEE
+.tarjeta.bg-card.acordion__activo .acordion__titulo h3
+  color: $color-sistema-texto !important
+//SLYDER F
+.slyder-f__btn i 
+    color: #FFD548
+
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -139,6 +156,8 @@ figcaption
     background-color: #FFE7C1
   &-3
     background-color: #BBDFEE
+  &-4
+    background-color: #513013
 
 
 .bg
@@ -157,6 +176,8 @@ figcaption
     border-top-right-radius: 70px
   &-2
     border-radius: 20px
+  &-3
+    border-top-left-radius: 70px
 
 .wcus
   &-1
@@ -196,6 +217,9 @@ figcaption
   .hcus
     &-1
       height: 300px
+  .br
+    &-1,&-2, &-3
+      border-radius: 0px
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
@@ -224,8 +248,6 @@ figcaption
     right: -9% !important;
   .slyder-a__btn--atrs
     left: -9% !important;
-  .br
-    &-1,&-2
-      border-radius: 0px
+  
   
  
