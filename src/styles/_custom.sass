@@ -98,6 +98,8 @@ figcaption
 //CAJON
 .cajon.color-acento-contenido
     background-color: #FFF5EA
+.cajon.color-secundario
+    background-color: #EDF7FB
 //NUEVO ICONO FA 
 .fa-cus
     content: url('../assets/curso/temas/bg/2.svg')
@@ -135,7 +137,13 @@ figcaption
 //SLYDER F
 .slyder-f__btn i 
     color: #FFD548
-
+//TARJETA BOTON
+.tarjeta--boton.bg-color-2
+    background-color: #FFF2C7
+.tarjeta--boton.bg-color-2:active, .tarjeta--boton.bg-color-2:focus, .tarjeta--boton.bg-color-2:hover
+    background-color: #D0D7DC !important
+.tarjeta--boton.bg-color-2:active *, .tarjeta--boton.bg-color-2:focus *, .tarjeta--boton.bg-color-2:hover *
+    color: $color-sistema-texto !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -190,6 +198,8 @@ figcaption
 .hcus
   &-1
     height: 420px
+  &-2
+    height: 370px
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -215,7 +225,7 @@ figcaption
   .slyder-a__btn--atrs
     left: -10% !important;
   .hcus
-    &-1
+    &-1,&-2
       height: 300px
   .br
     &-1,&-2, &-3
@@ -248,6 +258,9 @@ figcaption
     right: -9% !important;
   .slyder-a__btn--atrs
     left: -9% !important;
+  .hcus
+    &-1,&-2
+      height: auto
   
   
  
